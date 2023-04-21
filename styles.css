@@ -1,0 +1,153 @@
+  body {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      background-color: antiquewhite;
+    }
+   
+
+
+    .pricing-container {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .pricing-plan {
+        width:320px;
+        height: 70%;
+        padding-bottom: 20px;
+        background-color: white;
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .plan-title {
+        text-align: center;
+        color: white;
+        padding:20px 40px;
+        border-radius: 40px 40px 0 0;
+    }
+
+    .plan-title h2 {
+        font-size: 2rem;
+        letter-spacing: 2spt;
+        margin: 20px 0px 10px 0;
+    }
+
+    .plan-title hr {
+        width:95%;
+        height: 3px;
+        border: none;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .plan-title p {
+        font-size: 0.7rem;
+        margin: 0;
+    }
+
+    .basic {
+        background: linear-gradient(135deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+        background: -moz-linear-gradient(135, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+        background: -webkit-linear-gradient(135deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+    }
+
+    .standard {
+        background: linear-gradient(315deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+        background: -moz-linear-gradient(1315deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+        background: -webkit-linear-gradient(315deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+
+    }
+
+    .premium {
+        background: linear-gradient(135deg, hsla(136, 82%, 72%, 1) 30%, hsla(205, 84%, 36%, 1) 100%);
+        background: -moz-linear-gradient(315deg, hsla(136, 82%, 72%, 1) 30%, hsla(205, 84%, 36%, 1) 100%);
+        background: -webkit-linear-gradient(315deg, hsla(136, 82%, 72%, 1) 30%, hsla(205, 84%, 36%, 1) 100%);
+    }
+
+    .plan-price{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;;
+        font-size: 6rem;;
+        font-weight: 700;
+
+    }
+
+    .pricing-border {
+        width:40%;
+        border-bottom: 2px solid rgb(167, 167, 167);
+    }
+    .superscript {
+        vertical-align: super;
+        font-size: 4rem;
+        font-weight: 500;
+    }
+
+    .subscript {
+        vertical-align: sub;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    li {
+        list-style: none;
+        line-height: 2rem;
+    }
+
+    .fa-red {
+        background-image: linear-gradient(to right, 
+    #ff0f7b 0%,
+    #f89b29 50%);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+    .fa-blue {
+        background-image: linear-gradient(to right, 
+    #9bafd9 0%,
+    #103783 50%);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+    .fa-green {
+        background-image: linear-gradient(to right, 
+    #7ef29d 0%,
+    #0f68a9 50%);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+    .plan-button {
+        margin-top: 30px;
+        align-self: center;
+        border: none;
+        border-radius: 15px;
+        padding: 10px 25px;
+        color: white;
+        font-size: 1.2em;
+    }
+
+    @media (min-width: 300px) and (max-width:1012px) {
+
+        .pricing-container {
+            display: flex;
+            height:100%;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+
+      
+    }
